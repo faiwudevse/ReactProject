@@ -1,0 +1,41 @@
+header {
+    background-color: #d0d0c0;
+    text-align: center;
+}
+  
+.navbar {
+    display: flex;
+    justify-content: space-between;
+    padding: 1rem 2rem;
+    background-color: white;
+}
+
+.logo img{
+    max-width: 40%;
+    height: auto;
+    
+}
+
+.nav-links {
+    list-style: none;
+    display: flex;
+    gap: 1rem;
+}
+
+/* Media query for smaller screens (mobile devices) */
+@media (max-width: 768px) {
+    .navbar {
+        flex-direction: column;
+        align-items: center;
+    }
+
+    .logo img {
+        max-width: 50%; /* Increase the width for mobile devices */
+        height: auto;
+    }
+
+    .nav-links {
+        flex-direction: column; /* Stack links vertically for mobile */
+        gap: 0.5rem; /* Reduce gap for smaller screens */
+    }
+}

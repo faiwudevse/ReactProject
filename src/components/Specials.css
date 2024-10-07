@@ -1,0 +1,31 @@
+.specials {
+    padding: 2rem;
+    text-align: center;
+}
+.special-cards {
+    display: flex;
+    justify-content: space-around;
+}
+  
+.card {
+    border: 1px solid #ccc;
+    padding: 1rem;
+    width: 250px;
+    text-align: left;
+}  
+
+.card img {
+    width: 100%;
+}
+  
+.card h3 span {
+    float: right;
+    color: red;
+}
+  
+.order-btn {
+    background-color: yellow;
+    padding: 0.5rem;
+    border: none;
+    cursor: pointer;
+}

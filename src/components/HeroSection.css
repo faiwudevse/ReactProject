@@ -1,0 +1,28 @@
+.hero {
+    padding: 2rem;
+    background-color: #374442;
+    color: white;
+}
+
+.hero h1 span {
+    color: yellow;
+}  
+
+.container {
+    display: flex;
+    justify-content:  space-between;
+    background-color: #374442;
+    color: white;    
+}
+
+.left-div, .right-div {
+    width: 48%;
+    padding: 20 px;
+}
+
+.reserve-btn {
+    background-color: yellow;
+    padding: 0.5rem 1rem;
+    border: none;
+    cursor: pointer;
+  }
