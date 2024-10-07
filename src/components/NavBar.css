@@ -25,7 +25,7 @@ header {
 /* Media query for smaller screens (mobile devices) */
 @media (max-width: 768px) {
     .navbar {
-        flex-direction: column;
+        flex-direction: row;
         align-items: center;
     }
 
